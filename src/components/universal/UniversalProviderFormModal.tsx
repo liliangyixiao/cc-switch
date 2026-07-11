@@ -160,7 +160,8 @@ disable_response_storage = true
 name = "NewAPI"
 base_url = "${codexBaseUrl}"
 wire_api = "responses"
-requires_openai_auth = true`;
+requires_openai_auth = true
+env_key = "OPENAI_API_KEY"`;
     return {
       auth: {
         OPENAI_API_KEY: apiKey,

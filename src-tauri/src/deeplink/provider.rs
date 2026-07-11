@@ -338,6 +338,7 @@ name = "{clean_provider_name}"
 base_url = "{endpoint}"
 wire_api = "responses"
 requires_openai_auth = true
+env_key = "OPENAI_API_KEY"
 "#
     );
 

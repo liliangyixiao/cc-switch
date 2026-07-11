@@ -59,7 +59,8 @@ disable_response_storage = true
 name = "${cleanProviderName}"
 base_url = "${baseUrl}"
 wire_api = "responses"
-requires_openai_auth = true`;
+requires_openai_auth = true
+env_key = "OPENAI_API_KEY"`;
 }
 
 export const codexProviderPresets: CodexProviderPreset[] = [
